@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(210, 60%, 98%);
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+main{
+    max-width: 580px;
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 20px 20px 5px 20px;
+}
+
+/*************HEADER*************/
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.notif-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.notification h2{
+    font-size: 20px;
+}
+
+.notif-box .qty{
+    background-color: hsl(219, 85%, 26%);
+    color: #fff;
+    padding: 2px 8px;
+    margin-left: 10px;
+    border-radius: 5px;
+    font-size: 10px;
+}
+
+
+.mark-read h3{
+    font-size: 13px;
+    font-weight: 400;
+    color: hsl(219, 12%, 42%);
+}
+
+.mark-read h3:hover{
+    color: hsl(219, 85%, 26%);
+    cursor: pointer;
+}
+
+/*CONTENT - MESSAGES*/
+
+.msg-box{
+    width: 100%;
+    border-radius: 5px;
+    padding: 10px;
+    color: hsl(219, 12%, 42%);
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    
+}
+
+
+
+.pic-share{
+    width: 100%;
+    border-radius: 5px;
+    color: hsl(219, 12%, 42%);
+    font-size: 13px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.profile-pic img{
+    width: 35px;
+    height: auto;
+}
+
+.pic-msg{
+    align-self: flex-start;
+}
+
+.unread::after{
+    width: 6px;
+    height: 6px;
+    background-color: hsl(1, 90%, 64%);
+    border-radius: 50%;
+    content: '';
+    align-self: flex-start;
+    margin-left: 5px;
+    margin-top: 7px;
+
+}
+
+.message-content{
+    margin-left: 15px;
+}
+
+.message-content-status{
+    color: hsl(219, 14%, 63%);
+    margin-top: 3px;
+}
+
+.private-msg{
+    border: 1px solid hsl(219, 14%, 63%);
+    border-radius: 5px;
+    padding: 15px;
+    line-height: 1.3;
+    margin-top: 20px;
+}
+
+.private-msg:hover{
+    background-color: hsl(205, 33%, 90%);
+    border: 1px solid hsl(205, 33%, 90%);
+    cursor: pointer;
+}
+
+.unread{
+    background-color: hsl(210, 60%, 98%);
+    cursor: pointer;
+}
+
+.read{
+    background-color: #fff;
+}
+
+.marbo{
+    margin-bottom: 5px;
+}
+
+.marbobig{
+    margin-bottom: 25px;
+}
+
+.content{
+    color: hsl(219, 12%, 42%);
+    font-weight: 800;
+}
+
+.content:hover{
+    color: hsl(219, 85%, 26%);
+    cursor: pointer;
+}
+
+.share-img img{
+    width: 40px;
+    height: auto;
+}
+
+.club{
+    color: hsl(219, 85%, 26%);
+    font-weight: 800;
+}
+
+.user:hover{
+    color: hsl(219, 85%, 26%);
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.user{
+    font-weight: 800;
+    color: hsl(219, 12%, 42%);
+}
+
+
+
+
+/*FRONT END MENTOR ATTRIBUTION*/
+.attribution { 
+    font-size: 11px;
+    text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}

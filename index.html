@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;800&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">  
+  <title>Frontend Mentor | Notifications page</title>
+
+</head>
+<body>
+
+  <main>
+    <header>
+      <div class="notif-box">
+        <div class="notification">
+          <h2>Notifications</h2>
+        </div>
+        <div class="qty">
+          <h3 class="num">3</h3>
+        </div>
+      </div>
+      <div class="mark-read">
+        <h3>Mark all as read</h3>
+      </div>
+    </header>
+    <article>
+      <div class="msg-box marbo unread">
+        <div class="profile-pic">
+          <img src="/assets/images/avatar-mark-webber.webp" alt="">
+        </div>
+        <div class="message-content">
+          <div class="message-content-msg">
+            <p><span class="user">Mark Webber</span> reacted to your recent post <span class="content">My first tournament today!</span><span class="bullet"></span></p>
+          </div>
+          <div class="message-content-status">
+            <p>1m ago</p>
+          </div>
+        </div>
+      </div>
+      <div class="msg-box marbo unread follow">
+        <div class="profile-pic">
+          <img src="/assets/images/avatar-angela-gray.webp" alt="">
+        </div>
+        <div class="message-content">
+          <div class="message-content-msg">
+            <p><span class="user">Angela Gray</span> followed you</p>
+          </div>
+          <div class="message-content-status">
+            <p>5m ago</p>
+          </div>
+        </div>
+      </div>
+      <div class="msg-box marbo unread follow">
+        <div class="profile-pic">
+          <img src="/assets/images/avatar-jacob-thompson.webp" alt="">
+        </div>
+        <div class="message-content">
+          <div class="message-content-msg">
+            <p><span class="user">Jacob Thompson</span> has joined your group <span class="club">Chess Club</span></p>
+          </div>
+          <div class="message-content-status">
+            <p>1 day ago</p>
+          </div>
+        </div>
+      </div>
+      <div class="msg-box marbobig read private">
+        <div class="profile-pic pic-msg">
+          <img src="/assets/images/avatar-rizky-hasanuddin.webp" alt="">
+        </div>
+        <div class="message-content">
+          <div class="message-content-msg">
+            <p><span class="user">Rizky Hasanuddin</span> sent you a private message</p>
+          </div>
+          <div class="message-content-status">
+            <p>5 days ago</p>
+          </div>
+          <div class="private-msg">
+            Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and I'm already having lots of fun and improving my game.
+          </div>
+        </div>
+      </div>
+      <div class="msg-box marbobig read follow">
+        <div class="pic-share">
+          <div class="profile-pic">
+            <img src="/assets/images/avatar-kimberly-smith.webp" alt="">
+          </div>
+          <div class="message-content">
+            <div class="message-content-msg">
+              <p><span class="user">Kimberly Smith</span> commented on your picture</p>
+            </div>
+            <div class="message-content-status">
+              <p>1 week ago</p>
+            </div>
+          </div>
+        </div>
+        <div class="share-img">
+          <img src="/assets/images/image-chess.webp" alt="">
+        </div>
+      </div>
+      <div class="msg-box marbobig read follow">
+        <div class="profile-pic">
+          <img src="/assets/images/avatar-nathan-peterson.webp" alt="">
+        </div>
+        <div class="message-content">
+          <div class="message-content-msg">
+            <p><span class="user">Nathan Peterson</span> reacted to your recent post <span class="content">5 end-game strategies to increase your win rate</span></p>
+          </div>
+          <div class="message-content-status">
+            <p>2 weeks ago</p>
+          </div>
+        </div>
+      </div>
+      <div class="msg-box read follow">
+        <div class="profile-pic">
+          <img src="/assets/images/avatar-anna-kim.webp" alt="">
+        </div>
+        <div class="message-content">
+          <div class="message-content-msg">
+            <p><span class="user">Anna Kim</span> left the group <span class="club">Chess Club</span></p>
+          </div>
+          <div class="message-content-status">
+            <p>2 weeks ago</p>
+          </div>
+        </div>
+      </div>
+
+    </article>
+  </main>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Hugo Minzoni</a>.
+  </div>
+  <script src="/index.js"></script>
+</body>
+</html>
